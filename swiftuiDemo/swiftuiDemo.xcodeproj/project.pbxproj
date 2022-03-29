@@ -12,6 +12,7 @@
 		1FAAAC5B27F1CE2E00B180D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FAAAC5A27F1CE2E00B180D1 /* Assets.xcassets */; };
 		1FAAAC5E27F1CE2E00B180D1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FAAAC5D27F1CE2E00B180D1 /* Preview Assets.xcassets */; };
 		1FAAAC6727F2EBDE00B180D1 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAAC6627F2EBDD00B180D1 /* Styles.swift */; };
+		1FAAAC6927F328A200B180D1 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAAC6827F328A200B180D1 /* AccountView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		1FAAAC5A27F1CE2E00B180D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FAAAC5D27F1CE2E00B180D1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1FAAAC6627F2EBDD00B180D1 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		1FAAAC6827F328A200B180D1 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				1FAAAC5627F1CE2B00B180D1 /* swiftuiDemoApp.swift */,
 				1FAAAC5827F1CE2B00B180D1 /* ContentView.swift */,
 				1FAAAC6627F2EBDD00B180D1 /* Styles.swift */,
+				1FAAAC6827F328A200B180D1 /* AccountView.swift */,
 				1FAAAC5A27F1CE2E00B180D1 /* Assets.xcassets */,
 				1FAAAC5C27F1CE2E00B180D1 /* Preview Content */,
 			);
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FAAAC6927F328A200B180D1 /* AccountView.swift in Sources */,
 				1FAAAC6727F2EBDE00B180D1 /* Styles.swift in Sources */,
 				1FAAAC5927F1CE2B00B180D1 /* ContentView.swift in Sources */,
 				1FAAAC5727F1CE2B00B180D1 /* swiftuiDemoApp.swift in Sources */,
