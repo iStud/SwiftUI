@@ -25,7 +25,7 @@ struct AccountView: View {
                                 .foregroundColor(.blue)
                                 .font(.system(size: 200))
                                 .offset(x: -50, y: -100)
-                    )
+                        )
                     Text("Meng To")
                         .font(.title.weight(.semibold))
                     HStack {
@@ -38,12 +38,40 @@ struct AccountView: View {
                 .frame( maxWidth:.infinity)
                 .padding()
                 Section {
-                    Label("Settings",systemImage: "gear")
-                    Label("Billing",systemImage: "creditcard")
-                    Label("helping",systemImage: "questionmark")
+                    NavigationLink(destination: ContentView()){ Label("Settings",systemImage: "gear")
+                    }
+                    NavigationLink{Text("Billing")} label: {
+                        Label("Billing",systemImage: "creditcard")
+                    }
+                    NavigationLink{ContentView() } label:{ Label("helping",systemImage: "questionmark")
+                    }
                 }
+                .accentColor(.primary)
                 .listRowSeparatorTint(.blue)
                 .listRowSeparator(.hidden)
+                
+                Section {
+                    Link(destination: URL(string: "https://www.bilibili.com")!) {
+                        HStack {
+                            Label("webside",systemImage: "house")
+                            Spacer()
+                            Image(systemName: "link")
+                                .foregroundColor(.secondary)
+                        }
+                    }
+                    Link(destination:URL(string: "https//apple.com")!) {
+                        
+                        HStack {
+                            Label("Youtube",systemImage: "tv")
+                            Spacer()
+                            Image(systemName: "link")
+                                .foregroundColor(.secondary)
+                        }
+                    }
+                }
+                .accentColor(.primary)
+                .listRowSeparator(.hidden)
+                
             }
             .listStyle(.insetGrouped)
             .navigationTitle("Account")
