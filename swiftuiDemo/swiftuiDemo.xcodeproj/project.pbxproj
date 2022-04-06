@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1F08280627F5D334006ABC94 /* BlobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F08280527F5D334006ABC94 /* BlobView.swift */; };
 		1F1040C427F7163000600657 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1040C327F7163000600657 /* TabBar.swift */; };
+		1F4F286327FD28B300C5AA3D /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4F286227FD28B300C5AA3D /* Tab.swift */; };
 		1FAAAC5727F1CE2B00B180D1 /* swiftuiDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAAC5627F1CE2B00B180D1 /* swiftuiDemoApp.swift */; };
 		1FAAAC5927F1CE2B00B180D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAAC5827F1CE2B00B180D1 /* ContentView.swift */; };
 		1FAAAC5B27F1CE2E00B180D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FAAAC5A27F1CE2E00B180D1 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		1F08280527F5D334006ABC94 /* BlobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlobView.swift; sourceTree = "<group>"; };
 		1F1040C327F7163000600657 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		1F4F286227FD28B300C5AA3D /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		1FAAAC5327F1CE2B00B180D1 /* swiftuiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftuiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FAAAC5627F1CE2B00B180D1 /* swiftuiDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftuiDemoApp.swift; sourceTree = "<group>"; };
 		1FAAAC5827F1CE2B00B180D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				1FAAAC6827F328A200B180D1 /* AccountView.swift */,
 				1F08280527F5D334006ABC94 /* BlobView.swift */,
 				1F1040C327F7163000600657 /* TabBar.swift */,
+				1F4F286227FD28B300C5AA3D /* Tab.swift */,
 				1FAAAC5A27F1CE2E00B180D1 /* Assets.xcassets */,
 				1FAAAC5C27F1CE2E00B180D1 /* Preview Content */,
 			);
@@ -155,6 +158,7 @@
 				1FAAAC6927F328A200B180D1 /* AccountView.swift in Sources */,
 				58462BFF27F49E2D00452A95 /* HexagonView.swift in Sources */,
 				1FAAAC6727F2EBDE00B180D1 /* Styles.swift in Sources */,
+				1F4F286327FD28B300C5AA3D /* Tab.swift in Sources */,
 				1F08280627F5D334006ABC94 /* BlobView.swift in Sources */,
 				1FAAAC5927F1CE2B00B180D1 /* ContentView.swift in Sources */,
 				1FAAAC5727F1CE2B00B180D1 /* swiftuiDemoApp.swift in Sources */,
