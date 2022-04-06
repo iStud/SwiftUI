@@ -9,50 +9,31 @@ import SwiftUI
 
 struct TabBar: View {
     
-    // @State存储修改该属性
-    @State var selectedTab:Tab = .home
-    @State var color:Color = .teal
-    @State var tabItemWidth:CGFloat = 0
+    @AppStorage("selectedTab") var selectedTab: Tab = .home
+    @State var color: Color = .teal
+    @State var tabItemWidth: CGFloat = 0
     
-    var body: some View {
+    var body: some View{
         
-        ZStack(alignment: .bottom) {
-            
-            Group{
-                switch selectedTab {
-                case .home:
-                    ContentView()
-                case .explore:
-                    AccountView()
-                case .notifications:
-                    AccountView()
-                case .library:
-                    AccountView()
-                }
-            }
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
-            
-            HStack {
-                buttons
-            }
-            .padding(.horizontal,8)
-            .padding(.top, 14)
-            .frame(height: 88, alignment: .top)
-            .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 34, style: .continuous))
-            .background(
-                
-                background
-            )
-            .overlay(
-            
-                overlay
-            )
-            
-            .strokeStyle(cornerRadius: 34)
-            .frame(maxHeight: .infinity, alignment: .bottom)
-            .ignoresSafeArea()
+        HStack {
+            buttons
         }
+        .padding(.horizontal,8)
+        .padding(.top, 14)
+        .frame(height: 88, alignment: .top)
+        .background(.ultraThinMaterial, in: RoundedRectangle(cornerRadius: 34, style: .continuous))
+        .background(
+            
+            background
+        )
+        .overlay(
         
+            overlay
+        )
+        
+        .strokeStyle(cornerRadius: 34)
+        .frame(maxHeight: .infinity, alignment: .bottom)
+        .ignoresSafeArea()
     }
     
     var buttons: some View {
@@ -152,6 +133,7 @@ struct TabBar: View {
         }
         .padding(.horizontal,8)
     }
+    
 }
 
 struct TabBar_Previews: PreviewProvider {
