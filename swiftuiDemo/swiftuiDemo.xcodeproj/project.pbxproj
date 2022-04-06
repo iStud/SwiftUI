@@ -18,6 +18,8 @@
 		1FAAAC6727F2EBDE00B180D1 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAAC6627F2EBDD00B180D1 /* Styles.swift */; };
 		1FAAAC6927F328A200B180D1 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAAC6827F328A200B180D1 /* AccountView.swift */; };
 		58462BFF27F49E2D00452A95 /* HexagonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58462BFE27F49E2D00452A95 /* HexagonView.swift */; };
+		58CED0EC27FDCF6400B9C2B9 /* NavgationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CED0EB27FDCF6400B9C2B9 /* NavgationBar.swift */; };
+		58CED0EE27FDD14E00B9C2B9 /* FeaturedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CED0ED27FDD14E00B9C2B9 /* FeaturedItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		1FAAAC6627F2EBDD00B180D1 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 		1FAAAC6827F328A200B180D1 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		58462BFE27F49E2D00452A95 /* HexagonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonView.swift; sourceTree = "<group>"; };
+		58CED0EB27FDCF6400B9C2B9 /* NavgationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavgationBar.swift; sourceTree = "<group>"; };
+		58CED0ED27FDD14E00B9C2B9 /* FeaturedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 			children = (
 				1FAAAC5827F1CE2B00B180D1 /* ContentView.swift */,
 				1F1040C327F7163000600657 /* TabBar.swift */,
+				58CED0EB27FDCF6400B9C2B9 /* NavgationBar.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -69,6 +74,7 @@
 			children = (
 				58462BFE27F49E2D00452A95 /* HexagonView.swift */,
 				1F08280527F5D334006ABC94 /* BlobView.swift */,
+				58CED0ED27FDD14E00B9C2B9 /* FeaturedItem.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -203,6 +209,8 @@
 				58462BFF27F49E2D00452A95 /* HexagonView.swift in Sources */,
 				1FAAAC6727F2EBDE00B180D1 /* Styles.swift in Sources */,
 				1F4F286327FD28B300C5AA3D /* Tab.swift in Sources */,
+				58CED0EC27FDCF6400B9C2B9 /* NavgationBar.swift in Sources */,
+				58CED0EE27FDD14E00B9C2B9 /* FeaturedItem.swift in Sources */,
 				1F08280627F5D334006ABC94 /* BlobView.swift in Sources */,
 				1FAAAC5927F1CE2B00B180D1 /* ContentView.swift in Sources */,
 				1FAAAC5727F1CE2B00B180D1 /* swiftuiDemoApp.swift in Sources */,
