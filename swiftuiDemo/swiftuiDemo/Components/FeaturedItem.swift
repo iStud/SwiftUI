@@ -44,16 +44,16 @@ struct FeaturedItem: View {
         .background(.ultraThinMaterial)
 //        .cornerRadius(30.0)
         .mask(RoundedRectangle(cornerRadius: 30,style: .continuous))
-        .shadow(color:Color("Shadow").opacity(0.3), radius: 10, x: 0, y: 10)
+//        .shadow(color:Color("Shadow").opacity(0.3), radius: 10, x: 0, y: 10)
         .strokeStyle()
         .padding(.horizontal,20)
-        .overlay(
-            Image(course.image)
-                .resizable()
-                .aspectRatio(contentMode: .fit)
-                .frame(height:230)
-                .offset(x: 32, y: -100)
-        )
+//        .overlay(
+//            Image(course.image)
+//                .resizable()
+//                .aspectRatio(contentMode: .fit)
+//                .frame(height:230)
+//                .offset(x: 32, y: -100)
+//        )
     }
 }
 
