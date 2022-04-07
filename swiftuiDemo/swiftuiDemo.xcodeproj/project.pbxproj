@@ -12,6 +12,7 @@
 		1F4F286327FD28B300C5AA3D /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4F286227FD28B300C5AA3D /* Tab.swift */; };
 		1F4F286527FDB63E00C5AA3D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4F286427FDB63E00C5AA3D /* HomeView.swift */; };
 		1F4F286D27FED22B00C5AA3D /* PreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4F286C27FED22B00C5AA3D /* PreferenceKeys.swift */; };
+		1F4F286F27FEFEC700C5AA3D /* AnimatableFontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4F286E27FEFEC700C5AA3D /* AnimatableFontModifier.swift */; };
 		1FAAAC5727F1CE2B00B180D1 /* swiftuiDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAAC5627F1CE2B00B180D1 /* swiftuiDemoApp.swift */; };
 		1FAAAC5927F1CE2B00B180D1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAAC5827F1CE2B00B180D1 /* ContentView.swift */; };
 		1FAAAC5B27F1CE2E00B180D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FAAAC5A27F1CE2E00B180D1 /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 		1F4F286227FD28B300C5AA3D /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		1F4F286427FDB63E00C5AA3D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1F4F286C27FED22B00C5AA3D /* PreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeys.swift; sourceTree = "<group>"; };
+		1F4F286E27FEFEC700C5AA3D /* AnimatableFontModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableFontModifier.swift; sourceTree = "<group>"; };
 		1FAAAC5327F1CE2B00B180D1 /* swiftuiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftuiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FAAAC5627F1CE2B00B180D1 /* swiftuiDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftuiDemoApp.swift; sourceTree = "<group>"; };
 		1FAAAC5827F1CE2B00B180D1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				1FAAAC6627F2EBDD00B180D1 /* Styles.swift */,
+				1F4F286E27FEFEC700C5AA3D /* AnimatableFontModifier.swift */,
 			);
 			path = Styles;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 				1FAAAC5727F1CE2B00B180D1 /* swiftuiDemoApp.swift in Sources */,
 				1F4F286D27FED22B00C5AA3D /* PreferenceKeys.swift in Sources */,
 				1F1040C427F7163000600657 /* TabBar.swift in Sources */,
+				1F4F286F27FEFEC700C5AA3D /* AnimatableFontModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
