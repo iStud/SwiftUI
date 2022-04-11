@@ -23,6 +23,7 @@
 		58462BFF27F49E2D00452A95 /* HexagonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58462BFE27F49E2D00452A95 /* HexagonView.swift */; };
 		58CED0EC27FDCF6400B9C2B9 /* NavgationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CED0EB27FDCF6400B9C2B9 /* NavgationBar.swift */; };
 		58CED0EE27FDD14E00B9C2B9 /* FeaturedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CED0ED27FDD14E00B9C2B9 /* FeaturedItem.swift */; };
+		58CED0F02804624400B9C2B9 /* MatchedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CED0EF2804624400B9C2B9 /* MatchedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		58462BFE27F49E2D00452A95 /* HexagonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonView.swift; sourceTree = "<group>"; };
 		58CED0EB27FDCF6400B9C2B9 /* NavgationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavgationBar.swift; sourceTree = "<group>"; };
 		58CED0ED27FDD14E00B9C2B9 /* FeaturedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItem.swift; sourceTree = "<group>"; };
+		58CED0EF2804624400B9C2B9 /* MatchedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 			children = (
 				1F4F286427FDB63E00C5AA3D /* HomeView.swift */,
 				1FAAAC6827F328A200B180D1 /* AccountView.swift */,
+				58CED0EF2804624400B9C2B9 /* MatchedView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				1FAAAC6927F328A200B180D1 /* AccountView.swift in Sources */,
 				58462BFF27F49E2D00452A95 /* HexagonView.swift in Sources */,
 				1FAAAC6727F2EBDE00B180D1 /* Styles.swift in Sources */,
+				58CED0F02804624400B9C2B9 /* MatchedView.swift in Sources */,
 				1F4F286327FD28B300C5AA3D /* Tab.swift in Sources */,
 				58CED0EC27FDCF6400B9C2B9 /* NavgationBar.swift in Sources */,
 				58CED0EE27FDD14E00B9C2B9 /* FeaturedItem.swift in Sources */,
