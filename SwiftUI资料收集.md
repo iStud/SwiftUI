@@ -1,5 +1,4 @@
 1. https://developer.apple.com/tutorials/app-dev-training#resources
-
 2. https://fuckingswiftui.com/#view-controllers
 3. https://sarunw.com/tags/swiftui/
 4. https://www.raywenderlich.com/28797859-your-first-ios-swiftui-app-polishing-the-app/lessons/1
@@ -9,6 +8,7 @@
 8. https://swiftui-lab.com/
 9. https://github.com/WillieWangWei/SwiftUI-Tutorials
 10. https://github.com/Juanpe/About-SwiftUI
+10. https://developer.apple.com/forums/tags/swiftui
 
 
 
