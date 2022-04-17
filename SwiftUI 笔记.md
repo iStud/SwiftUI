@@ -21,5 +21,15 @@
 
 5. `ForEach`、`if` 、 `guard`.
 
+6. State 作用看着像 KVC
+
+7. Binding 作用
+
+8. `@State` makes the local property mutable, and the view in which you define `@State` observes changes in the property and updates the appropriate parts of the view accordingly.
+
+   Properties that you label `@State` are mutable, and the system observes these properties for changes in the view where you define them.
+
+9. you add to the beginning of a child view’s declaration to include a reference to the parent view’s `@State` property
+
 6. 
 
