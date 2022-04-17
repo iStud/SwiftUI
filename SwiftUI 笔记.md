@@ -31,5 +31,5 @@
 
 9. you add to the beginning of a child view’s declaration to include a reference to the parent view’s `@State` property
 
-6. 
+6. Nested Types
 
