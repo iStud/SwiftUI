@@ -23,7 +23,11 @@
 
 6. State 作用：修改结构体中的属性，当关键词 @State 修饰的属性被修改，整个 view 的 body 就会被重新渲染。
 
-7. Binding 作用
+7. Binding 作用：子视图能够改变我们父视图里面的@State属性。使用步骤：
+
+   1. 在子视图的属性前面写关键词 @Binding 
+   2. 父视图的属性前面得用@State修饰 
+   3. 当把父视图的@State属性传到子视图的时候，在属性名前面加上$
 
 8. `@State` makes the local property mutable, and the view in which you define `@State` observes changes in the property and updates the appropriate parts of the view accordingly.
 
@@ -31,5 +35,5 @@
 
 9. you add to the beginning of a child view’s declaration to include a reference to the parent view’s `@State` property
 
-6. Nested Types
+10. Nested Types
 
