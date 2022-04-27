@@ -23,6 +23,7 @@ struct ContentView: View {
         Pokemon(id: 3, name: "Pikachu", type: "Electric", color: .yellow),
     ]
     
+    @State var showDetails = true
     
     var body: some View {
         
@@ -32,12 +33,15 @@ struct ContentView: View {
                 
                 HStack{
                     Text(pokemon.name)
-                    Text(pokemon.type).foregroundColor(pokemon.color)
+                    if self.showDetails {
+                        Text(pokemon.type).foregroundColor(pokemon.color)
+                    }
                 }
                 
             }
             .navigationBarTitle(Text("Pokemon"))
             .navigationBarItems(
+                leading:ToggleTextButton(isOn: $showDetails),
                 trailing:Button(action: addPokemon, label: {Text("Add")})
             )
         }

@@ -11,6 +11,7 @@
 		1FD8810428192A5D00F4885F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD8810328192A5D00F4885F /* ContentView.swift */; };
 		1FD8810628192A6100F4885F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FD8810528192A6100F4885F /* Assets.xcassets */; };
 		1FD8810928192A6100F4885F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FD8810828192A6100F4885F /* Preview Assets.xcassets */; };
+		1FD881102819598D00F4885F /* ToggleTextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD8810F2819598D00F4885F /* ToggleTextButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		1FD8810328192A5D00F4885F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1FD8810528192A6100F4885F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FD8810828192A6100F4885F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1FD8810F2819598D00F4885F /* ToggleTextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleTextButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				1FD8810128192A5D00F4885F /* ListApp.swift */,
 				1FD8810328192A5D00F4885F /* ContentView.swift */,
+				1FD8810F2819598D00F4885F /* ToggleTextButton.swift */,
 				1FD8810528192A6100F4885F /* Assets.xcassets */,
 				1FD8810728192A6100F4885F /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FD8810428192A5D00F4885F /* ContentView.swift in Sources */,
+				1FD881102819598D00F4885F /* ToggleTextButton.swift in Sources */,
 				1FD8810228192A5D00F4885F /* ListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
