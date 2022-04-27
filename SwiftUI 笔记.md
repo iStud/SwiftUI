@@ -21,7 +21,7 @@
 
 5. `ForEach`、`if` 、 `guard`.
 
-6. State 作用看着像 KVC
+6. State 作用：修改结构体中的属性，当关键词 @State 修饰的属性被修改，整个 view 的 body 就会被重新渲染。
 
 7. Binding 作用
 
